@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+nav {
+  border: none;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(126, 126, 171);
+}
+#mainHeading a{
+  color: white;
+  text-decoration: none;
+}
+#logoDiv {
+  border: none;
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#logoNavBar {
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+}
+#mainHeading {
+  margin-left: 20px;
+}
+#buttonDiv {
+  border: none;
+  margin-right: 50px;
+  display: flex;
+  height: 50px;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  color: white;
+  background-color: rgb(15, 109, 15);
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+button:hover {
+  color: rgb(15, 109, 15);
+  background-color: #fff;
+  border: 1px solid rgb(15, 109, 15);
+  transition: 0.5s;
+}
+#featuresDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.features {
+  border: 1px solid red;
+  margin-top: 50px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+.featureLogos{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.features ol li{
+    color: white;
+}
+a:hover{
+  cursor: default;
+}
+#registerNav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+#mainHeadingRegister{
+  margin-top: 20px;
+}
+#mainHeadingRegister a{
+  text-decoration: none;
+  color: #fff;
+}
+#logoNavBarRegister{
+  height: 100px;
+  width: 100px;
+  margin-left: 35px;
+}
+#logoDivRegister{
+  border: none
+}
